@@ -15,9 +15,12 @@ namespace ManoPrograma
             katalogas.addPreke(new Preke("alus", 7, 6));
             katalogas.addPreke(new Preke("kompotas", 7, 6));
 
+            Console.WriteLine("Prekiu kaina" + katalogas.totalKaina());
+
+            Console.WriteLine(katalogas.findPreke("Kopustas") + "Preke rasta");
+
             katalogas.removePreke("kompotas");
 
-            katalogas = katalogas;
         }
         
 
